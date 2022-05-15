@@ -39,6 +39,14 @@ body {
     border: 0.5px dashed rgb(191, 195, 199);
 }
 
+#user-buttons {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-evenly;
+}
+
 .footer {
     display: flex;
     justify-content: center;
