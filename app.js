@@ -10,6 +10,7 @@ function makeGrid(rows, cols) {
     gridContainer.style.setProperty('--grid-cols', cols);
     for (c = 0; c < (rows*cols); c++) {
         let cell = document.createElement("div");
+        cell.addEventListener("mouseover", (e) => {e.target.style.backgroundColor="black"})
         gridContainer.appendChild(cell).className = "grid-item";
     }
 }
